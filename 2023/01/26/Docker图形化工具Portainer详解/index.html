@@ -9,7 +9,7 @@
     
     <title>
         
-            Archive: 2023 |
+            Docker图形化工具Portainer详解 |
         
         小楼吹风
     </title>
@@ -85,7 +85,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 ARCHIVES
@@ -121,7 +121,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">ARCHIVES</a>
                 </li>
             
@@ -146,38 +146,106 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
-        
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[2]</span>
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">Docker图形化工具Portainer详解</span>
             </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/26/Docker%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%B7%A5%E5%85%B7Portainer%E8%AF%A6%E8%A7%A3/"
-                        >Docker图形化工具Portainer详解</a>
-                        <span class="article-date">01-26</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/24/hello-world/"
-                        >Hello World</a>
-                        <span class="article-date">01-24</span>
-                    </li>
-                
-            </ul>
-        </section>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">风满楼</span>
+                            
+                                <span class="author-label">Lv1</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2023-01-26 01:36:10</span>
+        <span class="mobile">2023-01-26 01:36</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2023-01-26 01:36:10</span>
+    </span>
+    
+    
+    
+
+    
+    
+    
     
 </div>
 
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id="Docker图形化工具Portainer详解"><a href="#Docker图形化工具Portainer详解" class="headerlink" title="Docker图形化工具Portainer详解"></a>Docker图形化工具Portainer详解</h1><h1 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h1><h3 id="说明："><a href="#说明：" class="headerlink" title="说明："></a><strong>说明：</strong></h3><p>　　  Portainer是易于使用的软件，可为软件开发人员和IT操作人员提供直观的界面。</p>
+<p>　　  Portainer为你提供Docker环境的详细概述，并允许你管理容器，镜像，网络和数据卷。</p>
+<p>　　  Portainer易于部署，仅需一个Docker命令即可在任何地方运行Portainer。</p>
+<h3 id="功能："><a href="#功能：" class="headerlink" title="功能："></a><strong>功能：</strong></h3><p> 　     支持多集群管理、清晰的仪表盘显示、内置很多应用模板。</p>
+<p>　　   Docker功能（堆栈、服务、容器、镜像、网络、数据卷、配置）增删改查、使用状态监控等。</p>
+<p>　　   集群安全加密、多节点管理、用户角色控制、仓库列表、系统设置。</p>
+<h3 id="备注："><a href="#备注：" class="headerlink" title="备注："></a><strong>备注：</strong></h3><p>  用户权限控制、仓库镜像管理、外部认证这三个扩展功能是收费的，但总体功能较为强大，且持续维护中。</p>
+<p>  类似工具还有DockerUI（单机、功能简陋），Shipyard（功能较全、但Bug较多且早已停更），不推荐使用。</p>
+<p> 　　 一般项目都是结合Jenkins实现快速部署，所以很多创建功能虽然比较全面，但还是用的比较少，主要用处还是监控。</p>
+<hr>
+<h1 id="二、安装"><a href="#二、安装" class="headerlink" title="二、安装"></a>二、安装</h1><p> 　　Portainer由两个元素组成，即Portainer服务器和Portainer代理。这两个元素都在Docker引擎或Swarm集群中作为轻量级Docker容器运行。</p>
+<p>　　 由于Docker的性质，存在许多可能的部署方案</p>
+
+            </div>
+
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2023/01/24/hello-world/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">Hello World</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
     </div>
 </div>
+
 
                 
             </div>
@@ -211,6 +279,19 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -289,6 +370,12 @@
 
 
 <div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+        
     
 </div>
 
